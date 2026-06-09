@@ -24,9 +24,9 @@ elle ne fait pas partie de ce dossier de livrables.
 
 | Dossier | Livrable |
 |---------|----------|
-| `01-conteneurisation-orchestration/` | Architecture de deploiement, fichiers Docker Compose (base + 3 configurations), `bootstrap.sh`, scripts de sauvegarde/restauration, `CONFIGS.md` |
+| `01-conteneurisation-orchestration/` | Architecture de deploiement, fichiers Docker Compose (base + overlays : monitoring, offline, performance, traefik, vision, watchtower), `bootstrap.sh`, scripts de sauvegarde/restauration, `CONFIGS.md` |
 | `02-observabilite-supervision/` | Procedure de supervision et documentation technique du monitoring (Prometheus, Grafana, Loki, Alertmanager) |
-| `03-ci-cd-qualite/` | Chaine CI/CD (GitHub Actions, GHCR) et plan de test |
+| `03-ci-cd-qualite/` | Chaine CI/CD (GitHub Actions, GHCR, deploiement continu Watchtower) et plan de test |
 | `04-securite/` | Analyse de securite : OWASP Top 10, RGPD, NIST CSF |
 | `05-gestion-de-projet/` | Demarche agile, decoupage en 4 sprints, Kanban, gestion des risques |
 
