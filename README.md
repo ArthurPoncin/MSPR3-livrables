@@ -6,6 +6,10 @@ Formation : Concepteur Developpeur d'Applications, Blocs E6.3 et E6.4
 Annee : 2025-2026
 Ecole : EPSI
 
+## Equipe projet
+
+Arthur Poncin, Theo Renard, Martin Ornh, Foidjou Daumard
+
 ## Perimetre
 
 Industrialisation et mise en production de la plateforme microservices HealthAI Coach
