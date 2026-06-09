@@ -29,7 +29,6 @@ elle ne fait pas partie de ce dossier de livrables.
 | `03-ci-cd-qualite/` | Chaine CI/CD (GitHub Actions, GHCR) et plan de test |
 | `04-securite/` | Analyse de securite : OWASP Top 10, RGPD, NIST CSF |
 | `05-gestion-de-projet/` | Demarche agile, decoupage en 4 sprints, Kanban, gestion des risques |
-| `06-soutenance/` | Support de soutenance (Slidev) |
 
 ## Source du projet
 
@@ -44,11 +43,7 @@ Le code et l'orchestration sont repartis sur des depots independants :
 
 ## Note de format
 
-Les documents sont fournis en Markdown (diagrammes Mermaid inclus, rendus par GitHub et
-Slidev). Ils peuvent etre exportes en PDF pour la remise finale. Les fichiers de
+Les documents sont fournis en Markdown (diagrammes Mermaid inclus, rendus par GitHub).
+Ils peuvent etre exportes en PDF pour la remise finale. Les fichiers de
 configuration (`docker-compose*.yml`, `bootstrap.sh`, scripts) sont des copies fideles de
 ceux du depot `MSPR-Deploy`.
-
-## Soutenance
-
-Date : a confirmer. Support : `06-soutenance/` (presentation Slidev).
