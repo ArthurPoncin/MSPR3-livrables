@@ -24,11 +24,11 @@ elle ne fait pas partie de ce dossier de livrables.
 
 | Dossier | Livrable |
 |---------|----------|
-| `01-conteneurisation-orchestration/` | Architecture de deploiement, fichiers Docker Compose (base + overlays : monitoring, offline, performance, traefik, vision, watchtower), `bootstrap.sh`, scripts de sauvegarde/restauration, `CONFIGS.md` |
-| `02-observabilite-supervision/` | Procedure de supervision et documentation technique du monitoring (Prometheus, Grafana, Loki, Alertmanager) |
-| `03-ci-cd-qualite/` | Chaine CI/CD (GitHub Actions, GHCR, deploiement continu Watchtower) et plan de test |
+| `01-conteneurisation-orchestration/` | Architecture de deploiement, fichiers Docker Compose (base + overlays : monitoring, offline, performance, traefik, vision, watchtower), `bootstrap.sh`, scripts de sauvegarde/restauration, `CONFIGS.pdf` |
+| `02-observabilite-supervision/` | Procedure de supervision, documentation technique du monitoring (Prometheus, Grafana, Loki, Alertmanager) et captures des tableaux de bord en fonctionnement |
+| `03-ci-cd-qualite/` | Chaine CI/CD (GitHub Actions, GHCR, deploiement continu Watchtower), plan de test, rapport de tests et indicateurs de qualite (couvertures, SonarCloud) avec captures |
 | `04-securite/` | Analyse de securite : OWASP Top 10, RGPD, NIST CSF |
-| `05-gestion-de-projet/` | Demarche agile, decoupage en 4 sprints, Kanban, gestion des risques |
+| `05-gestion-de-projet/` | Demarche agile, decoupage en 4 sprints, Kanban (capture du GitHub Project commun), gestion des risques |
 
 ## Source du projet
 
@@ -43,7 +43,7 @@ Le code et l'orchestration sont repartis sur des depots independants :
 
 ## Note de format
 
-Les documents sont fournis en Markdown (diagrammes Mermaid inclus, rendus par GitHub).
-Ils peuvent etre exportes en PDF pour la remise finale. Les fichiers de
+Les documents sont fournis en PDF, generes depuis les sources Markdown du depot
+`MSPR-Deploy` (diagrammes Mermaid rendus). Les fichiers de
 configuration (`docker-compose*.yml`, `bootstrap.sh`, scripts) sont des copies fideles de
 ceux du depot `MSPR-Deploy`.
