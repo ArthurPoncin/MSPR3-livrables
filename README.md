@@ -17,9 +17,8 @@ construite lors des MSPR1 (backend metier) et MSPR2 (IA et frontend) : conteneur
 orchestration locale (Docker Compose), observabilite, CI/CD, securite, configurations
 multi-environnement et resilience.
 
-L'application mobile (mini reseau social) est developpee par un autre membre de l'equipe.
-Son etat d'avancement, son architecture et son reste a faire sont documentes dans
-`06-application-mobile/`.
+L'application mobile est developpee par un autre membre de l'equipe. Elle est documentee
+dans `06-application-mobile/`.
 
 ## Arborescence des livrables
 
@@ -30,7 +29,7 @@ Son etat d'avancement, son architecture et son reste a faire sont documentes dan
 | `03-ci-cd-qualite/` | Chaine CI/CD (GitHub Actions, GHCR, deploiement continu Watchtower), plan de test, rapport de tests et indicateurs de qualite (couvertures, SonarCloud) avec captures |
 | `04-securite/` | Analyse de securite : OWASP Top 10, RGPD, NIST CSF |
 | `05-gestion-de-projet/` | Demarche agile, decoupage en 4 sprints, Kanban (capture du GitHub Project commun), gestion des risques |
-| `06-application-mobile/` | Application mobile (Expo / React Native) : stack, architecture, integration aux services de la plateforme, conteneurisation, couverture du besoin et reste a faire |
+| `06-application-mobile/` | Application mobile (Expo / React Native) : stack, architecture, integration aux services de la plateforme, conteneurisation et execution |
 
 ## Source du projet
 
